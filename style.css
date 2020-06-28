@@ -87,3 +87,40 @@ body {
     left: 1240px;
     height: 228px;
 }
+
+.carousel {
+    width:640px;
+    height: 128px;
+    margin: 50px auto;
+    overflow: hidden;
+    
+}
+
+.carousel_content {
+    width: 1408px;
+    height: 128px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    
+}
+
+.carousel_content img {
+   float: left;
+}
+
+.carousel_left {
+    background-color:  bisque;
+    position: absolute;
+    left: 330px;
+    top: 340px;
+    height: 128px;
+}
+.carousel_right {
+    position: absolute;
+    height: 128px;
+    background-color:bisque;
+    left: 1000px;
+    top: 340px;
+}
+  
