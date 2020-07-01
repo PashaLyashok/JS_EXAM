@@ -5,15 +5,16 @@ body {
 
 .slider {
     width: 100%;
-    height: 288px;
+    height: 210px;
     overflow: hidden;
 }
 
 .slider_content {
-    width: 6420px;
     position: relative;
     left: 0;
     transition: all ease 2s;
+    margin: 0;
+    
 }
 
 .slide1,
@@ -21,11 +22,11 @@ body {
 .slide3,
 .slide4,
 .slide5 {
-    width: 1280px;
     background-size: cover;
     background-repeat:no-repeat ;
-    display: inline-block;
-    margin-left: -10px;
+    display: block;
+    float: left;
+   
 }
 .slide1 {
     background-image: url(images/slide1.jpg);
@@ -69,23 +70,13 @@ body {
     color: bisque;
 }
 
-.slider_content img {
-    float: left;
-    width: 1280px;
-    height: 288px;
+.slider_swipe {
+  text-align: center;
 }
 
-.slider_left {
-    position: absolute;
-    top: 0;
-    height: 228px;
-}
-
+.slider_left,
 .slider_right {
-    position: absolute;
-    top: 0;
-    left: 1240px;
-    height: 228px;
+    padding: 5px 15px;
 }
 
 .carousel {
@@ -106,21 +97,21 @@ body {
 }
 
 .carousel_content img {
-   float: left;
+   float: left; 
+}
+
+.carousel_swipe {
+    margin-top: -20px;
+    text-align: center;
 }
 
 .carousel_left {
     background-color:  bisque;
-    position: absolute;
-    left: 330px;
-    top: 340px;
-    height: 128px;
+    width: 10%;
 }
 .carousel_right {
-    position: absolute;
-    height: 128px;
-    background-color:bisque;
-    left: 1000px;
-    top: 340px;
+    margin-left: 35%;
+    background-color:bisque; 
+    width: 10%;
 }
   
